@@ -114,8 +114,23 @@ function exe12(){
 }
 
 function exe13(){
-    let idade
-        genero 
+    let idade = (Math.random() * 25)  
+        genero = "mulher" 
+
+    if (idade < 25){
+        if(genero == "mulher")
+            console.log("A Jovem!")
+        
+
+        if(genero == "homem")
+            console.log("O Jovem!")
+
+    }else if ( idade > 25){
+        if(genero == "mulher")
+            console.log("A Mulher!")
+        if(genero == "homem")
+            console.log("O Homem!")
+    }
 
 }
 
@@ -133,5 +148,6 @@ exe9();
 exe10();
 exe11();
 exe12();
+exe13();
 
 
