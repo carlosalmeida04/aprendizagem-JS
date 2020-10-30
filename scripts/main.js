@@ -164,8 +164,37 @@ function exe14() {
 
 function exe15(){
 
+    let n15 = 1
+
+
+    switch(n15){
+
+        case 1:
+            console.log("Numero: 1")
+            break
+        case 2:
+            console.log("Numero: 2")
+            break
+        case 3:
+            console.log("Numero: 3")
+            break
+        case 4:
+            console.log("Numero: 4")
+            break
+        case 5:
+            console.log("Numero: 5")
+            break
+        default: 
+            console.log("Numero maior que 5!(OUTRO VALOR)")
+        
+
+
+    }while( n15 >= 5 &&  n15 <= 1); 
+
     
 }
+
+
 
 
 exe1();
@@ -182,3 +211,4 @@ exe11();
 exe12();
 exe13();
 exe14();
+exe15();
