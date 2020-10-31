@@ -240,8 +240,55 @@ function exe18(){
 }
 function exe19(){
 
+    let num19 = 60
+    
+    
+    if(num19 % 2 == 0) 
+        console.log("Numero par!")
+    else
+        console.log("Numero impar!")
 
+}
 
+function exe20(){
+
+    let nums = [123];
+    
+    
+    if(nums.length == 3){
+        console.log(nums.split("  "))
+    }
+
+}
+
+function exe21(){
+
+    let a = 10
+    let   b = 30
+    let  c = 100
+    let menor
+ 
+    
+    
+    if(a < b ){
+        menor = a
+        console.log("Número menor:", menor)
+    }
+
+    else if(b < a){
+        menor = b
+        console.log("Numero menor:", menor)
+    }
+    else if( c < b){
+        menor = c
+        console.log("Numero menor:", menor)
+    }
+    else if (c < a){
+        menor = c
+        console.log("Numero menor:", menor)
+    }
+    
+    
 }
 
 exe1();
@@ -259,6 +306,9 @@ exe12();
 exe13();
 exe14();
 exe15();
-exe16();
-exe17();
+//exe16();
+//exe17();
 exe18();
+exe19();
+//exe20();
+exe21();
