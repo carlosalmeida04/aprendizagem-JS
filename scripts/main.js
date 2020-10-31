@@ -196,17 +196,48 @@ function exe15() {
 function exe16(){
 
     let num = 1000;
+    let array = new Array()
 
+
+    
     /*for(let i = 0; i <= 999; i++){
         num += 1;
         console.log(num + ", ")
     }*/
 
     for(let i = 1; i <= num; i++){
-        console.log(i);
+        array.push(i)
+        
     }
+    console.log(array);
 }
 
+function exe17(){
+
+    let i = 0
+   
+    
+    while( i  <= 999){
+        i++;
+        
+        console.log(i)
+    }
+
+}
+
+function exe18(){
+
+
+    let num1 = 4
+        num2 = 2;
+
+    if(num1 % num2 == 0){
+        console.log("São multliplos!")
+
+    }else
+        console.log("Não são multliplos!")
+
+}
 
 
 exe1();
@@ -225,3 +256,5 @@ exe13();
 exe14();
 exe15();
 exe16();
+exe17();
+exe18();
