@@ -264,8 +264,9 @@ function exe20(){
 function exe21(){
 
     let a = 10
-    let   b = 30
-    let  c = 100
+    let b = 50
+    let c = 2
+
     let menor
  
     
@@ -287,9 +288,30 @@ function exe21(){
         menor = c
         console.log("Numero menor:", menor)
     }
+    else if (a < c){
+        menor = a
+        console.log("Numero menor:", menor)
+    }
+    else if (b < c){
+        menor = b
+        console.log("Numero menor:", menor)
+    }
+    else if(a < a){
+        menor = a
+        console.log("Numero menor:", menor)
+    }
+    else if(b < b){
+        menor = b
+        console.log("Numero menor:", menor)
+    }
+    else if(c < c){
+        menor = c
+        console.log("Numero menor:", menor)
+    }
     
     
 }
+//function 
 
 exe1();
 exe2();
