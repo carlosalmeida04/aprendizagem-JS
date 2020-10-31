@@ -238,7 +238,11 @@ function exe18(){
         console.log("Não são multliplos!")
 
 }
+function exe19(){
 
+
+
+}
 
 exe1();
 exe2();
