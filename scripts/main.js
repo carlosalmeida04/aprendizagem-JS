@@ -157,17 +157,17 @@ function exe14() {
         console.log("Numero: 4")
     else if (n == 5)
         console.log("Numero: 5")
-    else 
+    else
         console.log("Numero maior que 5!(OUTRO VALOR)")
 }
 
 
-function exe15(){
+function exe15() {
 
     let n15 = 1
 
 
-    switch(n15){
+    switch (n15){
 
         case 1:
             console.log("Numero: 1")
@@ -184,16 +184,28 @@ function exe15(){
         case 5:
             console.log("Numero: 5")
             break
-        default: 
+        default:
             console.log("Numero maior que 5!(OUTRO VALOR)")
-        
 
 
-    }while( n15 >= 5 &&  n15 <= 1); 
 
-    
+    } while (n15 >= 5 && n15 <= 1);
+
+
 }
+function exe16(){
 
+    let num = 1000;
+
+    /*for(let i = 0; i <= 999; i++){
+        num += 1;
+        console.log(num + ", ")
+    }*/
+
+    for(let i = 1; i <= num; i++){
+        console.log(i);
+    }
+}
 
 
 
@@ -212,3 +224,4 @@ exe12();
 exe13();
 exe14();
 exe15();
+exe16();
