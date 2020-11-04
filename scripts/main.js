@@ -265,55 +265,69 @@ function exe21(){
 
     let a = 10
     let b = 50
-    let c = 2
+    let c = 5
 
     let menor
  
-    
-    
-    if(a < b ){
+    if(a < b){
         menor = a
-        console.log("Número menor:", menor)
-    }
-
-    else if(b < a){
+        console.log("Numero menor: " + menor)
+    }else if(b < c){
         menor = b
-        console.log("Numero menor:", menor)
+        console.log("Numero menor: " + menor)
     }
-    else if( c < b){
-        menor = c
-        console.log("Numero menor:", menor)
-    }
-    else if (c < a){
-        menor = c
-        console.log("Numero menor:", menor)
-    }
-    else if (a < c){
+    else if(a < c){
         menor = a
-        console.log("Numero menor:", menor)
-    }
-    else if (b < c){
-        menor = b
-        console.log("Numero menor:", menor)
-    }
-    else if(a < a){
-        menor = a
-        console.log("Numero menor:", menor)
-    }
-    else if(b < b){
-        menor = b
-        console.log("Numero menor:", menor)
-    }
-    else if(c < c){
+        console.log("Numero menor: " + menor)
+    }else if(c < a){
         menor = c
-        console.log("Numero menor:", menor)
+        console.log("Numero menor: " + menor)
+    }else if(b < c){
+        menor = b
+        console.log("Numero menor: " + menor)
     }
     
     
 }
-//function 
+function exe22(){
 
-exe1();
+    let c = 29 * 1.8 + 32
+
+    console.log("Graus Fahrenheit: " + c.toFixed(0))
+}
+function exe23(){
+    
+    let e
+ 
+
+
+    e = prompt("Euros: ")
+    
+    
+    console.log(e + " Euros são " + e * 1.2  + " Dólares")
+    console.log(e + " Euros são " + e * 0.90  + " Libras")
+    console.log(e + " Euros são " + e * 4  + " Reais")
+    console.log(e + " Euros são " + e * 28.5  + " Pesos")
+
+}
+function exe24(){
+
+    let n = 212
+  
+
+
+    if( n === n.split().reverse().join("")){
+        console.log("Este numero é uma capicua!")
+    }else
+        console.log("Este numero não é uma capicua!")
+
+
+
+
+   
+
+}
+/*exe1();
 exe2();
 exe3();
 exe4();
@@ -334,3 +348,7 @@ exe18();
 exe19();
 //exe20();
 exe21();
+exe22();*/
+
+//exe23();
+exe24();
